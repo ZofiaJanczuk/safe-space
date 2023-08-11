@@ -1,0 +1,14 @@
+.header {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+
+.header__title {
+	margin: 0px;
+}
+
+.header__logo {
+	max-width: 50px;
+	margin-right: 20px;
+}

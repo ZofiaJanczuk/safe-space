@@ -1,0 +1,10 @@
+.container {
+	background-color: #eee;
+	margin: 50px 100px;
+	padding: 30px;
+}
+
+.container__item {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}

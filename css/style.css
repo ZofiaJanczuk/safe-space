@@ -7,3 +7,10 @@ html {
 ::before {
 	box-sizing: inherit;
 }
+
+body {
+	font-family: "Cormorant Garamond", serif;
+	background-image: url("../images/marble-background.jpg");
+	resize: both;
+	overflow: auto;
+}
