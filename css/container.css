@@ -1,10 +1,10 @@
 .container {
-	background-color: #eee;
-	margin: 50px 100px;
-	padding: 30px;
+	
 }
 
 .container__item {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, auto);
+    grid-gap: 50px;
+	padding: 50px 40px 0;
 }

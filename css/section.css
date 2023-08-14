@@ -1,6 +1,11 @@
 .section {
 }
 
-.section__image {
+.section__imageLarge {
+	width: 100%;
+    margin: 20px 0;
+}
+
+.section__imageSmall {
 	max-width: 300px;
 }
