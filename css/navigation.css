@@ -10,8 +10,9 @@
 	list-style: none;
 	justify-items: center;
 	align-items: center;
-	font: 20px bold;
+	font: 17px bold;
     margin: 0;
+	background-color: hsl(0, 0%, 96%);
 }
 
 .navigation__item {
@@ -25,6 +26,9 @@
 
 .navigation__item--special {
 	background: #aed3e2;
-	padding: 15px;
+	padding: 10px;
+	width: 100%;
+	display: grid;
+	justify-content: center;
 }
 
