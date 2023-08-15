@@ -1,5 +1,10 @@
 .article {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
 
+.article.appear {
+    opacity: 1; 
 }
 
 .article__header {
