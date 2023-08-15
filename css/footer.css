@@ -1,3 +1,15 @@
 .footer {
-    margin: 0 60px;
+    margin: 0;
+    background-color: #aed3e2;
+    padding:  40px 60px;
+}
+
+.footer__header {
+    font-size: 30px;
+    margin: 0;
+}
+
+.footer__paragraph {
+    font-size: 22px;
+	line-height: 1.5em;
 }
