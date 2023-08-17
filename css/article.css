@@ -11,7 +11,15 @@
     font-size: 30px;
 }
 
-.article__paragraph{
+.article__paragraph {
     font-size: 22px;
 	line-height: 1.5em;
+}
+
+.article__numbers {
+    font-family: serif;
+    font-size: 21px;
+}
+
+.article__map {
 }
