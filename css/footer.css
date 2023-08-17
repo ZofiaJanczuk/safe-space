@@ -1,7 +1,7 @@
 .footer {
     margin: 0;
     background-color: #aed3e2;
-    padding:  40px 60px;
+    padding:  40px 60px 10px 60px;
 }
 
 .footer__header {
@@ -10,6 +10,23 @@
 }
 
 .footer__paragraph {
-    font-size: 22px;
+    font-size: 21px;
 	line-height: 1.5em;
+    font-family: serif;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__image {
+    max-width: 30px;
+    vertical-align: middle;
+}
+
+.footer__copywrite {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
 }

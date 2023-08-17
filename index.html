@@ -46,11 +46,21 @@
                 
                         <nav class="navigation">
                             <ul class="navigation__list">
-                                <li class="navigation__item">O mnie</li>
-                                <li class="navigation__item">Obszary pomocy</li>
-                                <li class="navigation__item">Stacjonarnie</li>
-                                <li class="navigation__item navigation__item--online">On-line</li>
-                                <li class="navigation__item navigation__item--special">Kontakt</li>
+                                <li>
+                                    <a class="navigation__item" href="#o-mnie">O mnie</a>
+                                </li>
+                                <li>
+                                    <a class="navigation__item" href="#obszary-pomocy">Obszary pomocy</a>
+                                </li>
+                                <li>
+                                    <a class="navigation__item" href="#stacjonarnie">Stacjonarnie</a>
+                                </li>
+                                <li>
+                                    <a class="navigation__item" href="#on-line">On-line</a>
+                                </li>
+                                <li>
+                                    <a class="navigation__item navigation__item--special" href="#kontakt">Kontakt</a>
+                                </li>
                             </ul>
                         </nav>
                
@@ -70,14 +80,14 @@
                         </section>
 
                         <section class="section section--first"> 
-                               <article class="article js-article">
+                               <article class="article js-article" id="o-mnie">
                                   <h2 class="section__header">O mnie</h2>
                                   <p class="section__paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut excepturi officiis architecto similique nisi cupiditate expedita ab illum neque? Cupiditate commodi error magni recusandae ducimus voluptatibus labore. Doloribus, laudantium aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo repellat, ipsa blanditiis autem dignissimos consequuntur ab dolorum, molestiae illum veritatis cum. Porro officia nisi hic. Voluptas ut ullam vel magnam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi dolore itaque nulla commodi dolorum incidunt, accusantium eius, facilis sed quos necessitatibus similique in autem velit iure error corrupti deleniti ratione?</p>
                                </article>
                         </section>
 
                         <section class="section section--second">
-                            <article class="article js-article">
+                            <article class="article js-article"  id="obszary-pomocy">
                                 <h2 class="section__header">Obszary pomocy</h2>
                                 <ul class="section__list">
                                   <li class="section__item">wcwcdcd dcdcascdd</li>
@@ -94,22 +104,27 @@
 
 
                         <section class="section section--third">
-                            <article class="article js-article">
+                            <article class="article js-article" id="stacjonarnie">
                               <h2 class="article__header">Terapia stacjonarna</h2>
                               <p class="article__paragraph">ul. Mieszka I <span class="article__numbers">25, 05-120</span> Legionowo</p>
                               <iframe class="article__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d290.21865800286525!2d20.91563840473488!3d52.3914712789959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eb826d7df833d%3A0x69978999fb73c3a8!2sMieszka%20I%2025%2C%2005-120%20Legionowo!5e1!3m2!1sen!2spl!4v1692295416117!5m2!1sen!2spl" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </article>
 
-                            <article class="article js-article">
+                            <article class="article js-article"  id="on-line">
                                 <h2 class="article__header">Terapia on-line</h2>
                                 <p class="article__paragraph"></p>
                             </article>
                         </section>
                     </main>
 
-                    <footer class="footer">
+                    <footer class="footer" id="kontakt">
                         <h2 class="footer__header">Kontakt</h2>
-                        <p class="footer__paragraph"></p>
+                        <p class="footer__paragraph"><span class="footer__image">☎️</span><a href="tel:+48608361066" class="footer__link"> +48 608 361 066</a></p>
+                        <p class="footer__paragraph"><img src="images/mail-icon.png" class="footer__image"><a href="mailto:renatajanczuk@gmail.com" class="footer__link"> renatajanczuk@gmail.com</a></p> <!--make a grid for 2 and 2 <p> and then one for all of them to make two columns-->
+                        <h2 class="footer__header">Sprawdź</h2>
+                        <p class="footer__paragraph"><img src="/images/facebook-icon.png" class="footer__image"><a></a></p>
+                        <p class="footer__paragraph"><img src="/images/instagram-icon.png" class="footer__image"><a></a></p>
+                        <p class="footer__paragraph footer__copywrite">Copyright © Safe Space 2023</p>
                     </footer>
         </div>
 	</body>

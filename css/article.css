@@ -1,6 +1,7 @@
 .article {
     opacity: 0;
     transition: opacity 250ms ease-in;
+    padding-top: 15px;
 }
 
 .article.appear {
