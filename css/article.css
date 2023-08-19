@@ -22,5 +22,8 @@
     font-size: 21px;
 }
 
-.article__map {
+@media (max-width: 550px) {
+    .article__map {
+        width: 280px;
+    }
 }

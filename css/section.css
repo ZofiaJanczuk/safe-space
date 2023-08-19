@@ -20,15 +20,12 @@
 
 @media (max-width: 550px) {
 	.section--first {
-		margin-top: 200px;
+		margin-top: 100px;
 	}
 }
 
 .section--second {
-	background-color:  #ffbf00;
-	margin: 0;
-	padding: 20px 60px;
-	color: white;
+	
 }
 
 .section--third {
@@ -63,12 +60,6 @@
     }
 }
 
-@media (max-width: 450px) {
-    .section__image {
-	  max-width: 150px;
-    }
-}
-
 .section__element {
 	text-align: center;
     transition: 0.5s;
@@ -94,6 +85,16 @@
 .section__element:hover {
     transform: scale(1.05);
 }
+
+.section__positionElement {
+	position: absolute;
+    top: 700px;
+    right: 0px;
+    background-color: #ffbf00;
+    color: white;
+    padding: 0px 30px;
+}
+
 
 .section__header {
 	font-size: 30px;
