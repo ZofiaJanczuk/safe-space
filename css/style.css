@@ -13,3 +13,7 @@ body {
 	background-color: hsl(0, 0%, 93%);
 }
 
+.numbers {
+	font-family: serif;
+	font-size: 21px;
+}

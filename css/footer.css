@@ -29,10 +29,11 @@
 }
 
 .footer__header {
-    font-size: 25px;
+    font-size: 30px;
     margin: 0;
     text-transform: uppercase;
     color: white;
+    padding-left: 15px;
 }
 
 .footer__paragraph {
@@ -43,8 +44,16 @@
 
 .footer__link {
     text-decoration: none;
-    color: white;
+    color: hsl(0, 0%, 96%);
     font-family: serif;
+}
+
+.footer__link:hover {
+    color: #e7ad00;
+}
+
+.footer__link:active {
+    color: black;
 }
 
 .footer__image {

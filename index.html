@@ -11,6 +11,7 @@
         <link href="css/navigation.css" rel="stylesheet" />
         <link href="css/footer.css" rel="stylesheet"/>
         <link href="css/article.css" rel="stylesheet"/>
+        <link href="css/table.css" rel="stylesheet"/>
 		<script src="js/script.js" defer></script>
 		<link
 			rel="stylesheet"
@@ -36,7 +37,7 @@
                 <div class="container__item">
                     
                         <header class="header">
-                            <h1 class="header__title">Poradnia<br>psychologiczna</h1>
+                            <h1 class="header__title">Gabinet<br>psychologiczny</h1>
                             <img
                                 class="header__logo"
                                 src="images/safe-space-logo.png"
@@ -47,16 +48,16 @@
                         <nav class="navigation">
                             <ul class="navigation__list">
                                 <li>
-                                    <a class="navigation__item" href="#o-mnie">O mnie</a>
+                                    <a class="navigation__item navigation__item--normal" href="#o-mnie">O mnie</a>
                                 </li>
                                 <li>
-                                    <a class="navigation__item" href="#obszary-pomocy">Obszary pomocy</a>
+                                    <a class="navigation__item navigation__item--normal" href="#oferta">Oferta</a>
                                 </li>
                                 <li>
-                                    <a class="navigation__item" href="#stacjonarnie">Stacjonarnie</a>
+                                    <a class="navigation__item navigation__item--normal" href="#umawianie-wizyt">Umawianie wizyt</a>
                                 </li>
                                 <li>
-                                    <a class="navigation__item" href="#on-line">On-line</a>
+                                    <a class="navigation__item navigation__item--normal" href="#cennik">Cennik</a>
                                 </li>
                                 <li>
                                     <a class="navigation__item navigation__item--special" href="#kontakt">Kontakt</a>
@@ -70,6 +71,7 @@
                         
                         <section>
                             <img class="section__banner" src="images/sunRise.jpg" alt="Wschód Słońca">
+                            <p class="section__paragraph--special">,,Twoja bezpieczna przestrzeń"</p>
                         </section>
 
                         <section>
@@ -82,41 +84,105 @@
                         <section class="section section--first"> 
                                <article class="article js-article" id="o-mnie">
                                   <h2 class="section__header">O mnie</h2>
-                                  <p class="section__paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut excepturi officiis architecto similique nisi cupiditate expedita ab illum neque? Cupiditate commodi error magni recusandae ducimus voluptatibus labore. Doloribus, laudantium aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo repellat, ipsa blanditiis autem dignissimos consequuntur ab dolorum, molestiae illum veritatis cum. Porro officia nisi hic. Voluptas ut ullam vel magnam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi dolore itaque nulla commodi dolorum incidunt, accusantium eius, facilis sed quos necessitatibus similique in autem velit iure error corrupti deleniti ratione?</p>
+                                  <p class="section__paragraph">
+                                     Jestem absolwentką psychologii <strong>Uniwersytetu Łódzkiego</strong> (studia magisterskie) oraz <strong>Uniwersytetu
+                                        Warszawskiego</strong> (studia podyplomowe) z zakresu terapii i rehabilitacji dzieci z dysfunkcjami
+                                     rozwojowymi oraz doradztwa zawodowego. 
+                                  </p>
+                                  <p class="section__paragraph">
+                                     Posiadam certyfikat z zakresu <strong>Terapii Integracji Sensorycznej</strong> oraz <strong>liczne dyplomy i certyfikaty</strong> 
+                                     ukończonych szkoleń w zakresie wspomagania rozwoju dzieci i młodzieży (m.in. Trening
+                                     Umiejętności Społecznych, diagnoza i rehabilitacja dzieci i młodzieży w spektrum autyzmu,
+                                     niedosłyszących, z ADHD, z zaburzeniami lękowymi)
+                                 </p>
+                                 <p class="section__paragraph">
+                                     Odbyte staże w placówkach terapeutycznych dla dzieci z aburzeniami zachowania, dzieci z
+                                     dysfuncjami rozwojowymi oraz w dziale Human Resources jednej z największych firm
+                                     komercyjnych dostarczyły mi głębokiej wiedzy oraz <strong>doświadczenia</strong> pozwalającego na
+                                     wszechstronną pracę z młodymi oraz starszymi klientami.
+                                 </p>
+                                 <p class="section__paragraph">
+                                     Moja<strong><span class="numbers"> 15</span> letnia praca zawodowa</strong> w placówkach edukacyjnych, niepublicznych poradniach
+                                     Moja w placówkach edukacyjnych, niepublicznych poradniach
+                                     psychologiczno-pedagogicznych oraz gabinetach terapii Integracj Sensorycznej pozwalają mi na
+                                     całościowe spojrzenie na trudności rozwojowe z uwzględnieniem kontekstu osobistego,
+                                     edukacyjnego oraz rodzinnego.
+                                 </p>
                                </article>
                         </section>
 
                         <section class="section section--second">
-                            <div class="section__positionElement">
-                                <article class="article js-article"  id="obszary-pomocy">
-                                    <h2 class="section__header">Obszary pomocy</h2>
-                                    <ul class="section__list">
-                                      <li class="section__item">wcwcdcd dcdcascdd</li>
-                                      <li class="section__item">doscinacacacac</li>
-                                      <li class="section__item">dnsvjk j</li>
-                                      <li class="section__item">dcnkscnkls</li>
-                                      <li class="section__item">dnkc ncdkcnd</li>
-                                      <li class="section__item"></li>
-                                      <li class="section__item"></li>
-                                      <li class="section__item"></li>
-                                    </ul>
-                                </article>
-                            </div>
+                            <article class="article js-article" id="oferta">
+                                <h2 class="section__header">Oferta</h2>
+                                <p class="section__paragraph">
+                                    Oferuję wsparcie <strong>dzieciom i młodzieży</strong> mającym problemy z nieśmiałością, regulacją emocji,
+                                    przejawiającym trudności w relacjach z innymi, cierpiącym z powodu niskiego poczucia własnej
+                                    wartości, które doświadczają przemocy rówieśniczej, zaburzeniami lękowymi, trudnościami w
+                                    nauce, poszukującymi doradztwa w zakresie wyboru ścieżki kształcenia lub zawodu.
+                                </p>
+                                <p class="section__paragraph">
+                                    Ponadto zapraszam dzieci i młodzież z <strong>całościowym zaburzeniem rozwoju</strong> (spektrum Autyzmu),
+                                    z <strong>zespołem nadpobudliwości psychoruchowej</strong> (ADHD).
+                               </p>
+                               <p class="section__paragraph">
+                                    Pomagam również <strong>rodzicom</strong> w przezwyciężaniu trudności wychowawczych. Mam doświadczenie
+                                    w pracy z grupami podczas prowadzenia licznych warsztatów terapeutycznych,
+                                    psychoedukacyjnych, wspraciowych oraz warsztatów wychowawczych.
+                               </p>
+                               <p class="section__paragraph">
+                                    <strong>Prowadzę konsultacje indywidualne, terapię, doradztwo zawodowe, psychoedukację osób dorosłych oraz młodzieży, a także konsultacje wychowawcze rodziców.</strong>
+                               </p>
+                               <p class="section__paragraph">
+                                    W swojej pracy zawsze postępuję zgodnie z kodeksem etycznym, stawiając na pierwszym
+                                    miejscu <strong>dobro pacjenta.</strong>
+                               </p>
+                             </article>
                         </section>
 
 
-                        <section class="section section--third">
-                            <article class="article js-article" id="stacjonarnie">
-                              <h2 class="article__header">Terapia stacjonarna</h2>
-                              <p class="article__paragraph">ul. Mieszka I <span class="article__numbers">25, 05-120</span> Legionowo</p>
-                              <iframe class="article__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d290.21865800286525!2d20.91563840473488!3d52.3914712789959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eb826d7df833d%3A0x69978999fb73c3a8!2sMieszka%20I%2025%2C%2005-120%20Legionowo!5e1!3m2!1sen!2spl!4v1692295416117!5m2!1sen!2spl" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </article>
+                        <section class="section section--third" id="umawianie-wizyt">
+                            <h2 class="section__header section__header--third">Umawianie wizyt</h2>
+                            <article class="article js-article">
+                              <h2 class="article__header">Wizyty stacjonarne i on-line</h2>
+                              <p class="article__paragraph">
+                                  Przyjmuję pacjentów stacjonarnie w ramach wizyt prywatnych w „Gabinetu Psychologicznego Safe Space” w Legionowie na ul. Mieszka I <span class="numbers">25, 05-120</span>. Możliwe są również wizyty on-line.
+                              </p>
 
-                            <article class="article js-article"  id="on-line">
-                                <h2 class="article__header">Terapia on-line</h2>
-                                <p class="article__paragraph"></p>
+                              <p class="article__paragraph">
+                                Wszystkim moim klientom oferuję <strong>kameralną, przyjazną atmosferę</strong> oraz <strong>dyskrecję</strong> w moim gabinecie, który tworzy „bezpieczną przestrzeń" do rozmowy, wsparcia oraz wymiany myśli.
+                                Zapraszam serdecznie 😄
+                              </p>
+
+                              <p class="article__paragraph">
+                                  <strong>W celu umówienia wizyty proszę o kontakt telefoniczny pod numerem:  <a href="tel:+48608361066" class="numbers article__link numbers" rel="noreferer noopener"> +48 608 361 066</a></strong>
+                              </p>
+                              <iframe class="article__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d290.21865800286525!2d20.91563840473488!3d52.3914712789959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eb826d7df833d%3A0x69978999fb73c3a8!2sMieszka%20I%2025%2C%2005-120%20Legionowo!5e1!3m2!1sen!2spl!4v1692295416117!5m2!1sen!2spl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </article>
                         </section>
+
+                        <section class="section section--fourth" id="cennik">
+                                <h2 class="section__header">Cennik</h2>
+                                <div class="section__tableContainer">
+                                    <table class="table">
+                                        <tr class="table__row">
+                                            <th class="table__cell table__cell--header">1</th>
+                                            <th class="table__cell table__cell--header">2</th>
+                                            <th class="table__cell table__cell--header">3</th>
+                                        </tr>
+                                        <tr class="table__row">
+                                            <th class="table__cell table__cell--header">1</th>
+                                            <td class="table__cell">2</td>
+                                            <td class="table__cell">3</td>
+                                        </tr>
+                                        <tr class="table__row">
+                                            <th class="table__cell table__cell--header">1</th>
+                                            <td class="table__cell">2</td>
+                                            <td class="table__cell">3</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                        </section>
+
                     </main>
 
                     <footer class="footer" id="kontakt">
@@ -124,24 +190,24 @@
                             <div class="footer__column1">
                                 <h2 class="footer__header">Kontakt</h2>
                                 <div class="footer__element">
-                                   <p class="footer__paragraph"><span class="footer__image">☎️</span></p>
-                                   <p><a href="tel:+48608361066" class="footer__link"> +48 608 361 066</a></p>
+                                   <p class="footer__paragraph"><img src="images/phone-icon.png" class="footer__image"></p>
+                                   <p><a href="tel:+48608361066" class="footer__link" rel="noreferer noopener"> +48 608 361 066</a></p>
                                 </div>
                                 <div class="footer__element">
                                    <p class="footer__paragraph"><img src="images/mail-icon.png" class="footer__image"></p>
-                                   <p><a href="mailto:renatajanczuk@gmail.com" class="footer__link"> renatajanczuk@gmail.com</a></p>
+                                   <p><a href="mailto:renatajanczuk@gmail.com" class="footer__link" rel="noreferer noopener"> renatajanczuk@gmail.com</a></p>
                                 </div>
                             </div>
     
                             <div class="footer__column2">
                                 <h2 class="footer__header">Sprawdź</h2>
                                 <div class="footer__element">
-                                   <p class="footer__paragraph"><img src="/images/facebook-icon1.png" class="footer__image"></p>
-                                   <p><a class="footer__link">link</a></p>
+                                   <p class="footer__paragraph"><img src="/images/facebook-icon.png" class="footer__image"></p>
+                                   <p><a class="footer__link" rel="noreferer noopener">link</a></p>
                                 </div>
                                 <div class="footer__element">
-                                   <p class="footer__paragraph"><img src="/images/instagram-icon1.png" class="footer__image"></p>
-                                   <p><a class="footer__link">link</a></p>
+                                   <p class="footer__paragraph"><img src="/images/instagram-icon.png" class="footer__image"></p>
+                                   <p><a class="footer__link" rel="noreferer noopener">link</a></p>
                                 </div>
     
                             </div>
