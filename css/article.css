@@ -23,18 +23,19 @@
     font-size: 21px;
 }
 
+.article__mapContainer {
+    border: 10px double black;
+    margin: 30px 0;
+}
+
 .article__map {
     width: 100%;
     max-width: 1500px;
     height: 300px;
     margin: 30px 0 30px;
+    margin: 0;
 }
 
-@media (max-width: 550px) {
-    .article__map {
-        width: 280px;
-    }
-}
 
 .article__link {
     text-decoration: none;

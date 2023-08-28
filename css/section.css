@@ -8,21 +8,10 @@
 	background-color:  hsl(0, 0%, 96%);
 }
 
-@media (max-width: 1024px) {
-	.section--first {
-        margin-top: 200px;
-	}
-}
 
-@media (max-width: 767px) {
+@media (max-width: 630px) {
 	.section--first {
-		margin-top: 250px;
-	}
-}
-
-@media (max-width: 550px) {
-	.section--first {
-		margin-top: 100px;
+		margin-top: 60px;
 	}
 }
 
@@ -39,16 +28,13 @@
 }
 
 .section__banner {
-	background-size: auto;
+	background-image: url("../images/sunRise.jpg");
+	height: 350px;
+    background-size: cover;
     box-shadow: 0px 8px 25px -5px hsl(0 0% 70% / 1);
 	margin: 40px 0 0;
-	max-width: 100%;
-}
-
-@media (max-width: 550px) {
-    .section__banner {
-	  max-width: 100%;
-    }
+	width: 100%;
+	background-position: center;
 }
 
 .section__image {
@@ -57,9 +43,9 @@
 	box-shadow: 0px 8px 25px -5px hsl(0 0% 70% / 1);
 }
 
-@media (max-width: 550px) {
+@media (max-width: 630px) {
     .section__image {
-	  max-width: 200px;
+	  max-width: 250px;
     }
 }
 
@@ -71,19 +57,13 @@
 	right: 50px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 850px) {
 	.section__element {
-		top: 470px;
+		top: 560px;
 		right: 25px;
 	}
 }
 
-@media (max-width: 450px) {
-	.section__element {
-		top: 400px;
-		right: 15px;
-	}
-}
 
 .section__element:hover {
     transform: scale(1.05);
@@ -132,7 +112,7 @@
 
 @media (max-width: 450px) {
 	.section__header--special {
-		font-size: 20px;
+		font-size: 25px;
 	}
 }
 
@@ -148,6 +128,29 @@
 	font-style: italic;
 	margin: 20px 60px 0;
 }
+
+@media (max-width: 850px) {
+	.section__paragraph--special {
+		font-size: 20px;
+		margin: 30px 40px 0;
+	}
+}
+
+@media (max-width: 630px) {
+	.section__paragraph--special {
+		font-size: 20px;
+		margin: 100px 40px 0;
+	}
+}
+
+@media (max-width: 450px) {
+      .section__paragraph--special {
+	      font-size: 20px;
+	       margin: 120px 40px 0;
+   }
+}
+
+
 
 .section__list {
 	line-height: 1.5em;
