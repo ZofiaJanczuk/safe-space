@@ -1,15 +1,16 @@
 .article {
-    opacity: 0;
-    transition: opacity 250ms ease-in;
     padding-top: 15px;
-}
-
-.article.appear {
-    opacity: 1; 
 }
 
 .article__header {
     font-size: 25px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 517px) {
+    .article__header {
+        font-size: 20px;
+    }
 }
 
 .article__paragraph {
@@ -48,4 +49,43 @@
 
 .article__link:active {
     color: black;
+}
+
+.article__image {
+    max-height: 500px;
+    border: 10px double black;
+}
+
+@media (max-width:500px) {
+    .article__image {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 425px) {
+    .article__image {
+        max-width: 250px;
+    }
+}
+@media (max-width: 375px) {
+    .article__image {
+        max-width: 200px;
+    }
+}
+
+
+.article--grid {
+    padding-right: 50px;
+}
+
+@media (max-width: 1024px) {
+    .article--grid {
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .article__imageContainer {
+        justify-self: center;
+    }
 }

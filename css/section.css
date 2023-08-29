@@ -124,7 +124,7 @@
 
 .section__paragraph--special {
 	font-size: 25px;
-	font-weight: bold;
+	font-weight: normal;
 	font-style: italic;
 	margin: 20px 60px 0;
 }
@@ -162,10 +162,21 @@
 
 .section--fourth {
     margin: 0;
-	padding: 20px 60px;
+	padding: 20px 60px 60px;
 }
 
 .section__tableContainer {
 	overflow-x: auto;
 	margin: auto;
+}
+
+.section__grid {
+	display: grid;
+	grid-template-columns: auto 1fr;
+}
+
+@media (max-width: 1024px) {
+	.section__grid  {
+		grid-template-columns: 1fr;
+	}
 }
